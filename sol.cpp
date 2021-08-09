@@ -8,7 +8,7 @@ int main() {
 	int a, b;
 	cin >> a >> b;
 	if (a == 9 && b == 1) {
-		// if 'a' is 9, and  'b' is 1, then simply print 'a' and 'b' multiplied to 10
+		// if 'a' is 9, and  'b' is 1, then simply print 'a' and ('b' multiplied to 10)
 		cout << a << " " << b * 10;
 	} else if (b - a == 1) {
 		// if the difference of 'b' and 'a' is 1, then do nothing
